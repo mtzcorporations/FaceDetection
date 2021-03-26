@@ -11,10 +11,10 @@ cap = cv2.VideoCapture('video2.mp4')
 while True:
         _, img = cap.read()  #get da FRAME 
         # Convert image into grayscale
-        gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
+        #gray = cv2.cvtColor(src=img, code=cv2.COLOR_BGR2GRAY)
 
         # Use detector to find landmarks
-        faces = detector(gray)
+        faces = detector(img,0)
 
         for face in faces:
             x1 = face.left() # left point

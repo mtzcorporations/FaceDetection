@@ -8,7 +8,7 @@ re=resizePic
 detector =  cv2.dnn.readNetFromCaffe('deploy.prototxt.txt', 'res10_300x300_ssd_iter_140000.caffemodel')
 # read the image
 #img = cv2.imread("slika1.jpg")
-cap = cv2.VideoCapture('video2.mp4')
+cap = cv2.VideoCapture('video.mp4')
 while True:
         _, img = cap.read()  #get da FRAME 
         # Convert image into grayscale

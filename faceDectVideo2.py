@@ -10,7 +10,7 @@ detector = dlib.get_frontal_face_detector()
 avg=0
 #img = cv2.imread("slika1.jpg")
 for i in range (0,20):
-    cap = cv2.VideoCapture('video2.mp4')
+    cap = cv2.VideoCapture('distance.mp4')
     len_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     #print(len_frames)
     count=1

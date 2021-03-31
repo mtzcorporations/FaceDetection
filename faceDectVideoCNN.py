@@ -10,7 +10,7 @@ re=resizePic
 detector = dlib.cnn_face_detection_model_v1('./mmod_human_face_detector.dat')
 # read the image
 #img = cv2.imread("slika1.jpg")
-cap = cv2.VideoCapture('video2.mp4')
+cap = cv2.VideoCapture('distance.mp4')
 count=0
 avg=0
 while True:

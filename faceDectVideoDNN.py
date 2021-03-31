@@ -12,7 +12,7 @@ detector =  cv2.dnn.readNetFromCaffe('deploy.prototxt.txt', 'res10_300x300_ssd_i
 
 avg=0
 for i in range (0,20):
-    cap = cv2.VideoCapture('sideDist.mp4')
+    cap = cv2.VideoCapture('video1.mp4')
     len_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     avg=0
     count=1

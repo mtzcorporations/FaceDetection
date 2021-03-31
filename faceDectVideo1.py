@@ -10,7 +10,7 @@ avg=0
 #cap = cv2.VideoCapture(0)
 # To use a video file as input 
 for i in range (0,20):
-    cap = cv2.VideoCapture('side.mp4')
+    cap = cv2.VideoCapture('distance.mp4')
     len_frames = int(cap.get(cv2.CAP_PROP_FRAME_COUNT))
     count=1
     while True:
